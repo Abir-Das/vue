@@ -1,0 +1,63 @@
+# vue
+
+your-project/
+├── #public/
+│   ├── index.html
+│   └── favicon.ico
+├── #src/
+│   ├── assets/
+│   ├── components/
+│   ├── views/
+│   ├── App.vue
+│   └── main.js
+├── #tests/
+├── #node_modules/
+├── #package.json
+├── #.gitignore
+├── #babel.config.js
+├── #README.md
+└── #vue.config.js
+
+
+
+#public/:
+        This directory contains static files that are directly copied to the build output without any processing.
+        It typically includes the project's main HTML file (index.html), favicon, and other assets.
+
+      ##src/:
+             The src directory is the heart of your Vue.js application.
+      ##assets/:
+                This directory is used for storing static assets like images, fonts, or CSS files.
+      ##components/:
+                  You'll place your reusable Vue components in this directory. Each component typically consists of a .vue file (template, script, and styles).
+      ##views/: 
+              This directory is for higher-level components or views that represent the different pages or major sections of your application.
+      ##App.vue:
+              The root component of your application. It serves as the entry point for all other components.
+      ##main.js: 
+              The main JavaScript file where you create the Vue instance and configure any plugins or additional libraries.
+#tests/:
+        This directory is used for storing your application's tests.
+        You can use testing frameworks like Jest or Mocha to write and run tests for your Vue components and functionality.
+
+
+#node_modules/: 
+              The directory where all the project's dependencies are installed.
+              This folder is generated automatically when you run npm install to install the project dependencies.
+
+#package.json: 
+              The manifest file for your project, which includes the project's metadata, dependencies, scripts, and other configurations.
+#.gitignore:
+          A file that specifies which files and directories should be ignored by version control systems like Git.
+
+#babel.config.js: 
+          The configuration file for Babel, a JavaScript compiler. It defines the presets and plugins that Babel should use to transpile your JavaScript code.
+
+#README.md: 
+        A markdown file that typically contains information about the project, its setup, and instructions for running and contributing to it.
+
+#vue.config.js:
+        A configuration file for Vue CLI. You can use this file to customize the project's build process, configure webpack, and more.
+      
+
+
