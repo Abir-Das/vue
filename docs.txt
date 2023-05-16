@@ -1,6 +1,6 @@
 # vue
 
-your-project/
+vue-project/
 ├── #public/
 │   ├── index.html
 │   └── favicon.ico
